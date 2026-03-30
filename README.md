@@ -43,8 +43,13 @@ Before you can run anything, you need to give the files permission to execute. O
 
 chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 ./script1.sh
+
 ./script2.sh
+
 sudo ./script3.sh
+
 sudo ./script4.sh /var/log/apache2/access.log
+
 sudo ./script4.sh /var/log/apache2/access.log 500
+
 ./script5.sh
