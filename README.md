@@ -36,7 +36,15 @@ The whole project is broken down into five standalone shell scripts. Here is exa
 
 ### Step-by-Step Setup:
 
-**1. Clone this repository:**
-```bash
-git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-cd your-repo-name
+## 🚀 Execution Instructions
+
+### 1. Set Permissions
+Before you can run anything, you need to give the files permission to execute. Open your terminal in the folder where you downloaded the scripts and run:
+
+chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
+./script1.sh
+./script2.sh
+sudo ./script3.sh
+sudo ./script4.sh /var/log/apache2/access.log
+sudo ./script4.sh /var/log/apache2/access.log 500
+./script5.sh
