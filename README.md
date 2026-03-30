@@ -44,9 +44,9 @@ Before you can run anything, you need to give the files permission to execute. O
 chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 ./F1.sh
 
-./F22.sh
+./F2.sh
 
-sudo ./F33.sh
+sudo ./F3.sh
 
 sudo ./F4.sh /var/log/apache2/access.log
 
