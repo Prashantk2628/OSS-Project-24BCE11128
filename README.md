@@ -42,14 +42,14 @@ The whole project is broken down into five standalone shell scripts. Here is exa
 Before you can run anything, you need to give the files permission to execute. Open your terminal in the folder where you downloaded the scripts and run:
 
 chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
-./script1.sh
+./F1.sh
 
-./script2.sh
+./F22.sh
 
-sudo ./script3.sh
+sudo ./F33.sh
 
-sudo ./script4.sh /var/log/apache2/access.log
+sudo ./F4.sh /var/log/apache2/access.log
 
-sudo ./script4.sh /var/log/apache2/access.log 500
+sudo ./F4.sh /var/log/apache2/access.log 500
 
-./script5.sh
+./F5.sh
